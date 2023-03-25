@@ -1,2 +1,55 @@
-node_modules
-.angular
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+/node_modules
+
+# local development
+/coverage
+/.env
+.env.local
+.env.*.local
+.e2e
+/node_modules
+/dist
+/apps/*/node_modules
+/libs/*/node_modules
+/tools/*/node_modules
+/**/*.js
+/**/*.js.map
+/**/*.d.ts
+/**/*.metadata.json
+/.angular/cache
+/.angular/ivy
+/.angular/assets
+/.ng_temp/
+.npm
+.npmrc
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# misc
+/.sass-cache
+/connect.lock
+/coverage
+/libpeerconnection.log
+npm-debug.log
+testem.log
+/typings
+/yarn-error.log
+/yarn.lock
+/coverage/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
